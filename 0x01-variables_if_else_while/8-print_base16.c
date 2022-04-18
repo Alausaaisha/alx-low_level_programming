@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** main - hexadecimal
+/**
+ * main - hexadecimal
  * Return: 0
  */
 int main(void)
