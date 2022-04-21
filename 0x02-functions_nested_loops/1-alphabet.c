@@ -13,3 +13,4 @@ int main(void)
 		_putchar ('d');
 	_putchar ('\n');
 	return (0);
+}
