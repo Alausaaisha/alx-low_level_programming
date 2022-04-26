@@ -7,10 +7,12 @@
  */
 int _strlen(char *s)
 {
-	char *s;
+	char s;
 	int len;
 
 	s = "My first strlen!";
-	len = strlen(s)
+	len = _strlen(s);
+	{
 	_putchar("strlen(s) :  %d\n", len);
+	}
 }
