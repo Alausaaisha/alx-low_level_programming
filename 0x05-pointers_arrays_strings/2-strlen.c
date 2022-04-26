@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * int _strlen -  returns the length of a string
  * @*s: string who length is to be printed
@@ -9,9 +10,7 @@ int _strlen(char *s)
 	char *s;
 	int len;
 
-	len = strlen(s);
-	
-	{
+	s = "My first strlen!";
+	len = strlen(s)
 	_putchar("strlen(s) :  %d\n", len);
-	}
 }
