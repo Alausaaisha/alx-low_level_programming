@@ -10,5 +10,5 @@ int _strlen_recursion(char *s)
 
 	if (s[n] == '\0')
 		return (n);
-	return (_strlen_recursion(s + 1));
+	return (_strlen_recursion(s + 1) + 1);
 }
