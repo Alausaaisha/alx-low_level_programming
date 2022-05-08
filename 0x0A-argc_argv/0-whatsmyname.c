@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-/**main - print the name of file
+/**
+ * main - print the name of file
  * @argc: no of command line argument
  * @argv: An array containing the program coomand line arguments
  * Return: 0
