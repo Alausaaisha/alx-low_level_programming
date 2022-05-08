@@ -6,8 +6,14 @@
  * @argv: an array of size argc
  * Retrun: 0
  */
-(void)argv;
-printf("%d\n", argc - 1);
-
-return (0);
+int main(int argc, char **argv)
+{
+	/**
+	 * enabling compiler to compile despite
+	 * unused variable
+	 */
+	(void)argv;
+	printf("%d\n", argc - 1);
+	
+	return (0);
 }
