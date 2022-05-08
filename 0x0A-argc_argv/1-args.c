@@ -2,9 +2,9 @@
 #include <stdlib.h>
 /**
  * main - function print a number
- * @argc: the size of the argv array
- * @argv: an array of size argc
- * Retrun: 0
+ * @argc: The size of the argv array
+ * @argv: An array of size argc
+ * Return: 0
  */
 int main(int argc, char **argv)
 {
