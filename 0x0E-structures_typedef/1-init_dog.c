@@ -1,4 +1,4 @@
-#include "main.h"
+#include "dog.h"
 #include <stdio.h>
 /**
  * init_dog - function that initializes the dog info
