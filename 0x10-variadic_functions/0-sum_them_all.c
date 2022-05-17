@@ -19,10 +19,9 @@ int sum_them_all(const unsigned int n, ...)
 	va_start(lst, n);
 
 	for (i = 0; i < n; i++)
-	{
 		num = va_arg(lst, int);
 		sum += num;
-	}
+
 	va_end(lst);
 
 	return (sum);
