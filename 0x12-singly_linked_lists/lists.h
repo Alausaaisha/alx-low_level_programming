@@ -13,9 +13,15 @@
  */
 typedef struct list_s
 {
+<<<<<<< HEAD
 	char *str;
 	unsigned int len;
 	struct list_s *next;
+=======
+char *str;
+unsigned int len;
+struct list_s *next;
+>>>>>>> 251a0e6560aabaee7bb7e56659ee6583583f4b5a
 } list_t;
 
 size_t print_list(const list_t *h);
