@@ -9,9 +9,9 @@ size_t print_listint(const listint_t *h)
 {
 	const listint_t *trav = h;
 	int count;
-	
+
 	count = 0;
-	
+
 	while (trav != NULL)
 	{
 		printf("%d\n", trav->n);
