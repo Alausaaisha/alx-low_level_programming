@@ -6,15 +6,17 @@
  */
 void free_listint2(listint_t **head)
 {
-	listint_t *repnode;
+	listint_t *temp;
 
-	if (*head == NULL)
+	if (head == NULL)
 		return;
 
-	while (*head != NULL)
+	temp = *head;
+	while (*head)
 	{
-		repnode  = *head;
-		*head = (*head)->next;
-		free(repnode);
+		temp = *head;
+		(*head) = (*head)->next;
+		free(temp);
 	}
+	*head = NULL;
 }
