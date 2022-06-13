@@ -7,12 +7,12 @@
  */
 void puts2(char *str)
 {
-int i = 0;
+	int lett;
 
-while (*(str + i))
-{
-putchar(*(str + i));
-i = i + 2;
-}
-putchar('\n');
+	for (lett = 0; str[lett] != '\0'; lett++)
+	{
+		if (lett % 2 == 0)
+			_putchar(str[lett]);
+	}
+	_putchar('\n');
 }
